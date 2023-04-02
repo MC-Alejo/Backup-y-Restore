@@ -8,23 +8,16 @@
 
 Deben de conocer la configuracion de Postgres y de su BD, es decir, puerto, nombre de la BD, usuario y contraseña.
 
-Ademas, asegurense de tener la base de datos CALP, con una tabla adicional llamada backups.
-Aca les dejo el codigo que deben copiar y ejecutar en postgres para agregar a la BD CALP la tabla:
-```sql
-CREATE TABLE backups (
-fechaExacta TIMESTAMP PRIMARY KEY NOT NULL
-);
-```
 
 ## Descargarlo
-Descargar el ZIP (Click en el boton verde llamado Code y despues en descargar ZIP).
+Descargar el ZIP (Click en Code y despues en descargar ZIP).
 
 Extraerlo en algun directorio o carpeta a eleccion propia.
 
 ## Instalando y configurando
 Abrir una terminal de Windows o Linux y copiar la ruta donde se encuentra el app.js.
 Esto lo pueden hacer facil escribiendo en la terminal cd y luego arrastran la carpeta que extrayeron a la terminal.
-Queda algo asi:
+Debe quedar algo así:
 
 ```shell
 cd c:\ruta donde se encuentra\Res-Back-main
@@ -52,4 +45,4 @@ o tambien:
 node app
 ```
 
-**Y ya con eso, nomas, ingresar a http://localhost:3000/**
+**Y ya con eso, solo queda ingresar a http://localhost:3000/**

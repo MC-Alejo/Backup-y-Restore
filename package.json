@@ -1,0 +1,20 @@
+{
+  "name": "servercalp",
+  "version": "0.1.0",
+  "description": "Servidor de la COOP La Paz",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "Servidor"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "pg": "^8.9.0"
+  }
+}

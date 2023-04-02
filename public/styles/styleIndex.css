@@ -1,0 +1,128 @@
+body{
+  background-color: #ff2b2b;
+  box-sizing: border-box;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Contenedor{
+  background-color: rgb(35, 33, 33);
+  height: 250px;
+  width: 300px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+select{
+  width: 150px;
+}
+
+div{
+  margin: auto;
+}
+
+form{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 10px;
+  padding-top: 20%;
+}
+
+
+.boton{
+  margin: auto;
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.boton:hover,
+.boton:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.boton:active {
+  opacity: .5;
+}
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+
+.Contenedor2{
+  background-color: #f48815e3;
+  height: 250px;
+  width: 300px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+p {
+	margin: auto;
+  padding-top: 10%;
+}
+
+.large {
+	font-size: 50px;
+}
+
+.small {
+	font-size: 40px;
+}
+
+.rise {
+	text-shadow: -0.01em -0.01em 0.01em #000;
+	animation: rise 2s ease-in-out 0.5s forwards;
+}
+
+@keyframes rise {
+	to {
+		text-shadow: 0em 0.01em #ff5, 0em 0.02em #ff5, 0em 0.02em 0.03em #ff5,
+			-0.01em 0.01em #333, -0.02em 0.02em #333, -0.03em 0.03em #333,
+			-0.04em 0.04em #333, -0.01em -0.01em 0.03em #000, -0.02em -0.02em 0.03em #000,
+			-0.03em -0.03em 0.03em #000;
+		transform: translateY(-0.025em) translateX(0.04em);
+	}
+}
+
+.outline {
+	background-clip: text;
+	color: #ffdd40;
+	animation: outline 1s ease-in-out 1.5s forwards;
+}
+
+@keyframes outline {
+	from {
+		text-shadow: 0em -7em 10em #fff;
+	}
+	to {
+		text-shadow: 0 0.02em #fff, 0.02em 0 #fff, -0.02em 0 #fff, 0 -0.02em #fff;
+	}
+}

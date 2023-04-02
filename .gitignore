@@ -2,9 +2,9 @@ node_modules/
 
 .env
 
-backups/*.backup
+*.backup
 
-scripts/*.bat
-scripts/*.sh
+*.bat
+*.sh
 
 *.sql
